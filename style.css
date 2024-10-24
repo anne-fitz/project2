@@ -1,0 +1,708 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("Images/take2background.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    /* overflow: hidden; */
+    filter: brightness(120%) contrast(90%) saturate(110%);
+    pointer-events: none;
+}
+
+canvas {
+    position: relative;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.black-and-white {
+    filter: grayscale(100%);
+}
+
+.aboutbutton {
+    width: 70px;
+    height: 10px;
+    z-index: 11;
+}
+
+.heart-hide-content {
+    z-index: 4;
+}
+
+.heart-stay-content {
+    z-index: 3;
+}
+
+.goodnightText {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    z-index: -2;
+    width: 150px;
+}
+
+.bouquet {
+    position: absolute;
+    left: 65%;
+    top: 30%;
+    z-index: -2;
+    width: 200px;
+}
+
+.heart {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    z-index: -2;
+    width: 150px;
+}
+
+.redflag {
+    position: absolute;
+    left: 8%;
+    top: 3%;
+    z-index: -3;
+    width: 180px;
+}
+
+.eyeroll {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    z-index: -3;
+    width: 180px;
+}
+
+.sadtext {
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    z-index: -3;
+    width: 200px;
+}
+
+.love {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    z-index: -3;
+    width: 160px;
+}
+
+.roses {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    z-index: -3;
+    width: 200px;
+}
+
+.hands {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    z-index: -3;
+    width: 175px;
+}
+
+.heartkisses {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    z-index: -3;
+    width: 100px;
+}
+
+.crying {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    z-index: -3;
+    width: 110px;
+}
+
+.meantit {
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    z-index: -3;
+    width: 220px;
+}
+
+.match {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    z-index: -3;
+    width: 180px;
+}
+
+.loveumore {
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    z-index: -3;
+    width: 180px;
+}
+
+.pinkheart {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    z-index: -3;
+    width: 100px;
+}
+
+.pinkheart1 {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    z-index: -3;
+    width: 90px;
+}
+
+.pinkheart2 {
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    z-index: -3;
+    width: 110px;
+}
+
+.pinkheart3 {
+    position: absolute;
+    left: 93%;
+    top: 80%;
+    z-index: -3;
+    width: 100px;
+}
+
+.pinkheart4 {
+    position: absolute;
+    left: 4%;
+    top: 60%;
+    z-index: -3;
+    width: 80px;
+}
+
+.pinkheart5 {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    z-index: -3;
+    width: 90px;
+}
+
+.pinkheart6 {
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    z-index: -3;
+    width: 110px;
+}
+
+.pinkheart7 {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    z-index: -3;
+    width: 100px;
+}
+
+.pinkheart8 {
+    position: absolute;
+    left: 90%;
+    top: 80%;
+    z-index: -3;
+    width: 80px;
+}
+
+.pinkheart9 {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: -3;
+    width: 90px;
+}
+
+.pinkheart10 {
+    position: absolute;
+    left: 90%;
+    top: 35%;
+    z-index: -3;
+    width: 100px;
+}
+
+.pinkheart11 {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: -3;
+    width: 80px;
+}
+
+.pinkheart12 {
+    position: absolute;
+    left: 60%;
+    top: 0%;
+    z-index: -3;
+    width: 80px;
+}
+
+.tulips {
+    position: absolute;
+    left: 60%;
+    top: 7%;
+    z-index: -3;
+    width: 180px;
+}
+
+.skeletons {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    z-index: -4;
+    width: 190px;
+}
+
+.cupid {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index: -3;
+    width: 120px;
+}
+
+.warwith {
+    position: absolute;
+    left: 25%;
+    top: 7%;
+    z-index: -3;
+    width: 170px;
+}
+
+.heartshaped {
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    z-index: -3;
+    width: 160px;
+}
+
+.plate {
+    position: absolute;
+    left: 35%;
+    top: 0%;
+    z-index: -4;
+    width: 190px;
+}
+
+.pr {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 180px;
+    z-index: -2;
+}
+
+.popup {
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 170px;
+    z-index: -2;
+}
+
+.filming {
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    width: 170px;
+    z-index: -4;
+}
+
+.airplane {
+    position: absolute;
+    left: 70%;
+    top: 2%;
+    width: 170px;
+    z-index: -3;
+}
+
+.makeupinfluencer {
+    position: absolute;
+    left: 0%;
+    top: 60%;
+    width: 270px;
+    z-index: -4;
+}
+
+.instalikes {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    width: 140px;
+    z-index: -4;
+}
+
+.cameras {
+    position: absolute;
+    left: 83%;
+    top: 55%;
+    width: 240px;
+    z-index: -2;
+}
+
+.glass {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    width: 160px;
+    z-index: -2;
+}
+
+.notenough {
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    width: 160px;
+    z-index: -4;
+}
+
+.photoshop {
+    position: absolute;
+    left: 80%;
+    top: 6%;
+    width: 220px;
+    z-index: -4;
+}
+
+.goodenough {
+    position: absolute;
+    left: 30%;
+    top: 1%;
+    width: 160px;
+    z-index: -3;
+}
+
+.mask {
+    position: absolute;
+    left: 70%;
+    top: 65%;
+    width: 170px;
+    z-index: -4;
+}
+
+.opinion {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    width: 160px;
+    z-index: -4;
+}
+
+.judge {
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    width: 170px;
+    z-index: -4;
+}
+
+.skull {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    width: 180px;
+    z-index: -4;
+}
+
+.pinkcamera {
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    width: 150px;
+    z-index: -4;
+}
+
+.pinkmoney {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    width: 190px;
+    z-index: -5;
+}
+
+.barbie {
+    position: absolute;
+    left: 75%;
+    top: 25%;
+    width: 185px;
+    z-index: -3;
+}
+
+.insecurequote {
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    width: 165px;
+    z-index: -5;
+}
+
+.grad {
+    position: absolute;
+    left: 85%;
+    top: 0%;
+    width: 200px;
+    z-index: -5;
+}
+
+.wedding {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    width: 190px;
+    z-index: -5;
+}
+
+.drinklake {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    width: 180px;
+    z-index: -5;
+}
+
+.money {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    width: 150px;
+    z-index: -4;
+}
+
+.coffee {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 150px;
+    z-index: -4;
+}
+
+.walk {
+    position: absolute;
+    left: 0%;
+    top: 65%;
+    width: 160px;
+    z-index: -4;
+}
+
+.pinkbouquet {
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    width: 140px;
+    z-index: -4;
+}
+
+.gradcaps {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    width: 170px;
+    z-index: -4;
+}
+
+.olympics {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    width: 200px;
+    z-index: -4;
+}
+
+.babystuff {
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    width: 170px;
+    z-index: -4;
+}
+
+.book {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 170px;
+    z-index: -4;
+}
+
+.chalk {
+    position: absolute;
+    left: 25%;
+    top: 1%;
+    width: 190px;
+    z-index: -3;
+}
+
+.bench {
+    position: absolute;
+    left: 78%;
+    top: 80%;
+    width: 220px;
+    z-index: -4;
+}
+
+.handskid {
+    position: absolute;
+    left: 1%;
+    top: 35%;
+    width: 150px;
+    z-index: -4;
+}
+
+.propose {
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    width: 190px;
+    z-index: -4;
+}
+
+.eras {
+    position: absolute;
+    left: 57%;
+    top: 27%;
+    width: 200px;
+    z-index: -4;
+}
+
+.chiefs {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 150px;
+    z-index: -4;
+}
+
+.cooking {
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    width: 170px;
+    z-index: -4;
+}
+
+.laundry {
+    position: absolute;
+    left: 75%;
+    top: 25%;
+    width: 160px;
+    z-index: -3;
+}
+
+.shower {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 150px;
+    z-index: -4;
+}
+
+.driving {
+    position: absolute;
+    left: 70%;
+    top: 1%;
+    width: 200px;
+    z-index: -4;
+}
+
+.instructions {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 11;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 2px;
+    padding-top: 100px;
+}
+
+.instructions p {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    margin: 10px;
+}
+
+.instructions1,
+.instructions2,
+.instructions3 {
+    background-color: rgba(255, 136, 228, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.instructions4 {
+    font-size: 11px;
+    padding-top: 30px;
+    background-color: transparent;
+}
+
+.title {
+    opacity: 1;
+    width: 400px;
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 12;
+}
+
+.about-page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    gap: 30px;
+}
+
+.whatyousee {
+    width: 400px;
+}
+
+.about-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-title {
+    width: 250px;
+}
+
+.about-text {
+    width: 700px;
+    height: 435px;
+    text-align: left;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    background-color: white;
+    padding: 10px;
+}
+
+.return-text {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    background-color: rgba(255, 136, 228, 0.5);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/script.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Orbitron&family=VT323&family=Share+Tech+Mono&family=Audiowide&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body
+    style="background-image: url('Images/take2background.png'); background-size: cover; background-repeat: no-repeat;">
+    <div class="about-page-content">
+        <img class="whatyousee" src="Images/whatyousee.jpg">
+        <div class="about-stuff">
+            <img class="about-title" src="Images/abouttitle.png">
+            <p class="about-text">
+                Out of Bounds offers a unique user experience that contrasts with typical websites by challenging the
+                way we interact with online content. By using a lens to highlight the limits of what one sees online,
+                this website emphasizes how much control standard web interfaces exert over the experience of the site.
+                This project challenges that control by promoting user autonomy and critiquing our digital lack of
+                freedom. It also serves as a reflection on how technology and other lenses–both literally and
+                figuratively–limit our perception of our world.<br><br>
+                The ideal user for this site is someone interested in interactive digital experiences and looking for a
+                way to challenge their own thinking of how they navigate the web. They will uncover a playful site that
+                explores these themes.<br><br>
+                The idea of this website came from my own experiences. On my walk to class, I noticed that everyone
+                around me was glued to their phones, seemingly unaware of their surroundings. It made me think how much
+                they must miss by just focusing on the rectangle in front of them. This thought evolved and I considered
+                the ways in which distorted viewpoints lead to people missing the whole picture: how we only see curated
+                images online and miss people's true realities; how rose-colored glasses in a relationship can shield us
+                from red flags; how tunnel vision on bigger life milestones can cause us to not appreciate the smaller
+                moments of life. Similarly, websites control what you see and experience as well: you can only click on
+                what the designer created. Through this website, I wanted to explore the idea of control and perception
+                and craft an experience where users can actively uncover content for themselves. The user uses lenses to
+                display or hide different parts of the page, able to see both through a distorted view and the entire
+                picture.<br><br>
+                I consider there to be many conceptual limitations to this project. It is abstract and the
+                metaphor is not quite intuitive. I struggled with conceptualizing the whole idea myself and then
+                implementing it in code. I think that the website could be clearer and the
+                have more nuanced interactivity to further highlight the limitations of our current web
+                experiences.<br><br>
+                In the next iteration of this website, I would love to fix the aesthetic of it. I used images from
+                Pinterest but I would love to make my own content that better aligns with the meaning and is more
+                cohesive. Additionally, I’d reconsider the metaphor and ensure that it communicates my vision of letting
+                the user uncover content on their own and understand how different perspectives sometimes shield you
+                from the whole picture. Lastly, I would want to add mobile responsiveness where it says it's a desktop
+                only website when opened on mobile, as I ran out of time for that.
+        </div>
+    </div>
+    <p class="return-text">
+        Click the left arrow key to return to the site.
+    </p>
+
+</body>
+
+<script>
+    $(document).keydown(function (event) {
+        if (event.keyCode === 37) {
+            window.location.href = "index.html";
+        }
+    });
+</script>
+
+</html>
